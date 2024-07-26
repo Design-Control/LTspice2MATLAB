@@ -1,0 +1,15 @@
+MATLAB을 통한 LTspice 시뮬레이션 메뉴얼
+
+1. ppt 메뉴얼
+2. example.m: 예제 코드
+3. LTspice2Matlab.m: LTspice 시뮬레이션 진행 및 결과 해석 함수
+4. makeComponent.m: 넷리스트 작성을 위한 구성요소 정의 함수
+5. simulateModel: 시뮬레이션 실행을 위한 함수
+
+a. 위 3~5 MATLAB 함수는 1. ppt 메뉴얼 상의 링크를 통해 다운로드 할 수 있음 (자세한 내용은 메뉴얼 참고)
+b. example.m 예제 코드를 개인 기기에서 실행하기 위해서는 "LTspice 실행 파일 위치", "example.m LTspice 작업 공간 위치", "넷리스트 위치"를
+예제 코드 상에서 메뉴얼을 참고하여 적절히 수정해야 한다. 
+
+위 예제 코드를 작성하는 데 참고한 원본 코드 및 함수는
+https://kr.mathworks.com/matlabcentral/fileexchange/75713-link-matlab-to-ltspice?s_tid=srchtitle_support_results_10_LTspice
+에서 확인할 수 있다. 
